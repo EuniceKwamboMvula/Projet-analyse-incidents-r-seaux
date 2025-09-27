@@ -1,0 +1,11 @@
+elk:
+host: http://localhost:9200
+index_prefix: network-logs-
+parser:
+patterns:
+core: "CORE"
+transmission: "TRANSMISSION"
+ip: "IP"
+report:
+weekly_day: monday
+output_dir: ../reports

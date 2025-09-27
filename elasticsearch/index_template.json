@@ -1,0 +1,18 @@
+{
+  "index_patterns": ["network-logs-*"],
+  "template": {
+    "settings": {
+      "number_of_shards": 1
+    },
+    "mappings": {
+      "properties": {
+        "ts": { "type": "date" },
+        "source": { "type": "keyword" },
+        "level": { "type": "keyword" },
+        "msg": { "type": "text" },
+        "latency_ms": { "type": "float" },
+        "packet_loss": { "type": "float" }
+      }
+    }
+  }
+}

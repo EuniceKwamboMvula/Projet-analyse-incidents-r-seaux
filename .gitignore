@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.env
+
+# Virtual env
+venv/
+.env/
+
+# Reports
+reports/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# Docker
+*.docker
